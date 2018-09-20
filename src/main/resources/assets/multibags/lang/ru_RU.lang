@@ -1,0 +1,28 @@
+itemGroup.multibags=§6SimpleBags
+
+key.category_bag=§6SimpleBags
+key.open_gui=Открыть Рюкзак
+
+item.first_bag.name=Рюкзак Путешественника I
+item.second_bag.name=Рюкзак Путешественника II
+item.third_bag.name=Рюкзак Путешественника III
+item.fourth_bag.name=Рюкзак Путешественника IV
+item.fifth_bag.name=Рюкзак Путешественника V
+item.ender_bag.name=Эндер Рюкзак Путешественника
+item.first_fabric.name=Ткань I
+item.second_fabric.name=Ткань II
+item.third_fabric.name=Ткань III
+item.fourth_fabric.name=Ткань IV
+item.fifth_fabric.name=Ткань V
+item.power_update.name=Улучшение Силы
+item.speed_update.name=Улучшение Скорости
+tile.bag_upgrade.name=Рюкзаковый Верстак
+
+gui_bag_open_vanilla_gui=Обычный Инвентарь
+speed_perk=§bЭта сумка добавит скорости
+power_perk=§cЭта сумка увеличит урон
+
+perks_now=§4%o§5 из §4%s§5 улучшений
+
+jei.workbench.category=Рокзаковый Верстак
+jei.infuser.category=Рюкзаковый Наполнитель

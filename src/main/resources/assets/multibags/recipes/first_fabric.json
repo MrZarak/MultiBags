@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "multibags:first_fabric"
+  }
+}

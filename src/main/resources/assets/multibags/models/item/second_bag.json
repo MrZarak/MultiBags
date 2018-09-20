@@ -1,0 +1,6 @@
+{
+  "parent": "multibags:item/base_bag",
+  "textures": {
+    "0": "multibags:items/second_bag"
+  }
+}

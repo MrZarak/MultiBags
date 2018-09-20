@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "CBC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:slime_ball"
+    },
+    "B": {
+      "item": "multibags:third_fabric"
+    },
+    "C": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "multibags:fourth_fabric"
+  }
+}

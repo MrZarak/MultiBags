@@ -1,0 +1,16 @@
+[
+{
+  "modid": "multibags",
+  "name": "MultiBags",
+  "description": "This mod will add backpacks to the game.\n These backpacks have some unique features, namely:\n- Strength (can be repaired)\n- 3D model on the back of the player\n- Integration with Baubles\n- Ender backpack opening an end-chest\n- Table for crafting and repairing backpacks\n- GUI backpack opens with standard inventory\nI hope you like this mod :)\nEnjoy your game.",
+  "version": "0.0.1",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zarak"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

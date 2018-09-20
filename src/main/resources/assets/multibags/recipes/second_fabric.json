@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "multibags:first_fabric"
+    }
+  },
+  "result": {
+    "item": "multibags:second_fabric"
+  }
+}

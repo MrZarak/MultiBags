@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "ABA",
+    "ADA"
+  ],
+  "key": {
+    "B": {
+      "item": "multibags:fourth_fabric"
+    },
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "multibags:fifth_fabric"
+  }
+}
