@@ -1,6 +1,9 @@
 package zarak.multibags.init
 
 import com.zarak.zaraklib.item.ItemBase
+import net.minecraft.entity.EntityLivingBase
+import net.minecraft.item.ItemStack
+import net.minecraft.util.EnumParticleTypes
 import net.minecraftforge.fml.common.registry.ForgeRegistries
 import zarak.multibags.items.{ItemBagBase, ItemRepairFabric, ItemUpdateBase, ItemUpdatePerk}
 
@@ -11,6 +14,29 @@ object BagItems {
 
   val ENDER_BAG: ItemBagBase = new ItemBagBase("ender_bag", -1, 27) {
     setMaxDamage(45)
+
+    override def onWornTick(itemstack: ItemStack, player: EntityLivingBase): Unit = {
+      if(player.world.isRemote) {
+        val rand = player.world.rand
+        val yaw = (player.rotationYaw%360+90) / 180 * math.Pi
+        val cx = player.posX - math.cos(yaw)*0.5 + player.motionX*10
+        val cz = player.posZ - math.sin(yaw)*0.5 + player.motionZ*10
+        if(rand.nextInt(10)==0)
+          for (_ <- 0 to 2) {
+            val j = rand.nextInt(2) * 2 - 1
+            val k = rand.nextInt(2) * 2 - 1
+            val d0 = cx + 0.1 * j.toDouble
+            val d1 = (player.posY.toFloat + rand.nextFloat).toDouble + 0.5
+            val d2 = cz + 0.1 * k.toDouble
+            val d3 = (rand.nextFloat * j.toFloat).toDouble
+            val d4 = (rand.nextFloat.toDouble - 0.5D) * 0.125D
+            val d5 = (rand.nextFloat * k.toFloat).toDouble
+            player.world.spawnParticle(EnumParticleTypes.PORTAL, d0, d1, d2, d3, d4, d5)
+          }
+
+      }
+
+    }
   }
   val FIRST_BAG: ItemBagBase = new ItemBagBase("first_bag", 0, 9) {
     setMaxDamage(25)
