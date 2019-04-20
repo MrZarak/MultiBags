@@ -5,5 +5,6 @@ These backpacks have some unique features, namely:\n- Strength (can be repaired)
 - Integration with Baubles\n- Ender backpack opening an end-chest
 - Table for crafting and repairing backpacks
 - GUI backpack opens with standard inventory
+
 I hope you like this mod :)
 Enjoy your game.
